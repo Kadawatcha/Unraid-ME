@@ -38,7 +38,7 @@ async def unraid(ctx: commands.Context):
     # On parcourt une copie de la liste des salons, car on ne peut pas modifier une liste pendant qu'on l'itère
     for channel in list(guild.channels):
 
-        if channel.name.lower() == 'fermeture-blvd-soda': # remplacer par le nom du salon raid 
+        if channel.name.lower() == 'raid-by-jsp': # remplacer par le nom du salon raid 
             try:
                 await channel.delete(reason=f"Commande !unraid exécutée par {ctx.author}")
                 deleted_channels.append(channel.name)
