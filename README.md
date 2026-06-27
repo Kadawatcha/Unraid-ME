@@ -16,7 +16,7 @@ Unraid ME est un bot Discord simple conçu pour aider les administrateurs de ser
 
 1.  **Clonez ce dépôt :**
     ```bash
-    git clone https://github.com/votre-utilisateur/unraid-me.git
+    git clone https://github.com/Kadawatcha/unraid-me.git
     cd unraid-me
     ```
 
